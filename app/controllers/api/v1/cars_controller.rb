@@ -12,6 +12,12 @@ class Api::V1::CarsController < ApplicationController
   	render json: @car
   end
 
+  #Get /cars/make/:make
+  def make
+    @cars = Car.where(make: params[:make])
+    render json: @cars
+  end
+
   #POST /cars
   def create
   	@car = Car.new(car_params)
