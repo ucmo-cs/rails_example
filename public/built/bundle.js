@@ -37084,7 +37084,7 @@ function _defineProperties(target, props) { for (var i = 0; i < props.length; i+
 function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
 
 
-var CAR_API_BASE_URL = 'http://rails-cars-example.herokuapp.com/api/v1/cars';
+var CAR_API_BASE_URL = 'https://rails-cars-example.herokuapp.com/api/v1/cars';
 
 var ApiService =
 /*#__PURE__*/
